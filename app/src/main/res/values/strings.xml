@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="str_select_language"> Select one of the languages. </string>
+    <string name="app_name">Example of ListView view</string>
+    <color name = "wb" > #E0FFFF</color>
+    <string-array name="str_languages">
+        <item> 윤형석 </item>
+        <item> 이유정 </item>
+        <item> 박동민 </item>
+        <item> 윤영식 </item>
+        <item> 최상규 </item>
+        <item> 모모 </item>
+        <item> 쯔위 </item>
+        <item> 나연 </item>
+        <item> 지효 </item>
+        <item> 사나 </item>
+        <item> 채영 </item>
+        <item> 다현 </item>
+        <item> 정연 </item>
+        <item> 김도연 </item>
+        <item> 윤은영 </item>
+        <item> 아싸1 </item>
+        <item> 아싸2 </item>
+    </string-array>
+
+</resources>

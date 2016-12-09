@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/wb">
+
+
+    <!--특정 한 사람의 프로필을 볼 수 있는 화면-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_next"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txt_next4"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/txt_next3"
+            android:layout_alignLeft="@+id/txt_next3"
+            android:layout_alignStart="@+id/txt_next3"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:id="@+id/txt_next3"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/txt_next2"
+            android:layout_alignLeft="@+id/txt_next2"
+            android:layout_alignStart="@+id/txt_next2" />
+
+        <TextView
+            android:id="@+id/txt_next2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/txt_next"
+            android:layout_alignLeft="@+id/txt_next"
+            android:layout_alignStart="@+id/txt_next" />
+        <!--이 user에게 전화를 걸 수 있게 해주는 버튼-->
+        <Button
+            android:id="@+id/btn_intent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:layout_below="@+id/txt_next4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:onClick="onClick01" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/meet1"
+            android:id="@+id/imageView"
+            android:layout_marginBottom="79dp"
+            android:layout_above="@+id/txt_next"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>

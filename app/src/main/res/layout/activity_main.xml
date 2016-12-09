@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.example.user.templates.MainActivity">
+
+
+    <!--회원 가입을 하는 button-->
+
+        <ImageButton
+        android:onClick="toAct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/jungbodeungrok"
+        android:id="@+id/imageButton3"
+        android:layout_marginBottom="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--밥먹을래!를 외치며 db로 나의 프로필을 전송하는 버튼-->
+    <ImageButton
+        android:onClick="toAct3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/comingout"
+        android:id="@+id/imageButton4"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton3" />
+
+    <!--친구 찾기를 하는 버튼-->
+    <ImageButton
+        android:onClick="toAct4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/honbobchoong"
+        android:id="@+id/imageButton2"
+        android:layout_above="@+id/imageButton4"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton4" />
+
+</RelativeLayout>
